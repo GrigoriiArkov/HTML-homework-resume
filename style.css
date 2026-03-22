@@ -1,0 +1,149 @@
+body {
+    font-family: "calibri", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./img/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+    top: 20px;
+    border-radius: 15px;
+
+}
+
+.main-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+}
+
+.main-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 187, 0);
+}
+
+.information {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.top-blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.about-myself {
+    background-color: rgba(235, 227, 6, 0.911);
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.work-experience-skills {
+    background-color: rgba(239, 232, 18, 0.834);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.about-myself-text strong {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.first-list,
+.hobby-list {
+    list-style-type: circle;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.work-experience-skills-text strong {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-experience-skills-text strongprofesii {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    line-height: 1.5;
+}
+.ps {
+    background-color: rgba(254, 241, 0, 0.761);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: rgba(244, 124, 4, 0.898);
+    text-align: center;
+    font-size: 15px;
+}
